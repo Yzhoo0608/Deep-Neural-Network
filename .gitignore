@@ -24,11 +24,14 @@ ENV/
 dataset/raw/
 hf_cache/
 
-# Checkpoints: ignore all by default, keep only the 100-epoch checkpoints
+# Checkpoints: ignore all by default, keep only the 100-epoch checkpoints (best & last)
 checkpoints/*
 !checkpoints/vae_best.pt
 !checkpoints/vae_best_100ep.pt
 !checkpoints/vae_best_100ep_20261028_195853.pt
+!checkpoints/vae_last.pt
+!checkpoints/vae_last_100ep.pt
+!checkpoints/vae_last_100ep_20261028_195853.pt
 
 # Ignore OS-specific files
 .DS_Store
