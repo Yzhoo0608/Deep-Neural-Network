@@ -4,8 +4,14 @@ __pycache__/
 *$py.class
 *.so
 
-# Jupyter Notebook checkpoints
+# Jupyter Notebook checkpoints & local backups (Only keep Data preprocess.ipynb on GitHub)
 .ipynb_checkpoints/
+Data preprocess (50 epochs).ipynb
+Data preprocess_backup.ipynb
+Data preprocess (final).ipynb
+
+# Local handover documentation (not for GitHub)
+HANDOVER_MEMBER2.md
 
 # Virtual Environments
 .env
@@ -18,11 +24,10 @@ ENV/
 dataset/raw/
 hf_cache/
 
-# Checkpoints: ignore all by default, keep only the key checkpoints
+# Checkpoints: ignore all by default, keep only the 100-epoch checkpoints
 checkpoints/*
 !checkpoints/vae_best.pt
 !checkpoints/vae_best_100ep.pt
-!checkpoints/vae_best_50ep.pt
 !checkpoints/vae_best_100ep_20261028_195853.pt
 
 # Ignore OS-specific files
