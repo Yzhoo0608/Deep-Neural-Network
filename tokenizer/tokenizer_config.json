@@ -1,0 +1,16 @@
+{
+  "max_vocab_size": 10000,
+  "min_word_freq": 1,
+  "max_text_length": 40,
+  "special_tokens": [
+    "<pad>",
+    "<unk>",
+    "<bos>",
+    "<eos>"
+  ],
+  "pad_id": 0,
+  "bos_id": 2,
+  "eos_id": 3,
+  "unk_id": 1,
+  "vocabulary_source": "train captions only"
+}

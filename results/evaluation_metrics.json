@@ -1,0 +1,13 @@
+{
+  "experiment": "100_epochs",
+  "reconstruction_mse": 0.011391,
+  "reconstruction_mae": 0.071248,
+  "psnr_db": 25.46,
+  "latent_kl_divergence": 3.6886,
+  "tokenizer_vocab_coverage_percent": 100.0,
+  "tokenizer_unk_rate_percent": 0.0,
+  "vocabulary_size": 7375,
+  "checkpoint": "C:\\DNN\\DNN_Project\\checkpoints\\vae_best_100ep.pt",
+  "checkpoint_epoch": 98,
+  "best_val_loss": 0.01181043717265129
+}

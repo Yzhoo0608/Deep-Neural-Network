@@ -1,0 +1,31 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large / Raw Downloads Cache
+dataset/raw/
+hf_cache/
+
+# Checkpoints: ignore all by default, keep only the key checkpoints
+checkpoints/*
+!checkpoints/vae_best.pt
+!checkpoints/vae_best_100ep.pt
+!checkpoints/vae_best_50ep.pt
+!checkpoints/vae_best_100ep_20261028_195853.pt
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
